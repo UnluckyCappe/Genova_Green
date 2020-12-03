@@ -17,7 +17,7 @@
 
 
     <include
-        layout="@layout/content_main2"/>
+        layout="@layout/content_main"/>
     </LinearLayout>
     <RelativeLayout
         android:layout_width="300dp"
