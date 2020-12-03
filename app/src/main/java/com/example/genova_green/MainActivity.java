@@ -7,9 +7,13 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     DrawerLayout dl;
 
     @Override
@@ -18,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         dl=findViewById(R.id.home);
+
     }
     public void ClickMenu(View view){
         openDrawer(dl);
@@ -30,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         closeDrawer(dl);
     }
 
-    public void closeDrawer(DrawerLayout dl) {
+    public static void closeDrawer(DrawerLayout dl) {
         if(dl.isDrawerOpen(GravityCompat.START)) {
             dl.closeDrawer(GravityCompat.START);
         }
@@ -65,5 +70,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         closeDrawer(dl);
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 }
