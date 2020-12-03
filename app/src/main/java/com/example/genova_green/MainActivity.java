@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        dl=findViewById(R.id.dl);
+        dl=findViewById(R.id.home);
     }
     public void ClickMenu(View view){
         openDrawer(dl);
