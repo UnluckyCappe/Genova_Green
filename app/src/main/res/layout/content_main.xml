@@ -34,8 +34,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:ignore="DuplicateIds">
+        app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <ImageView
             android:id="@+id/imageView"
@@ -47,13 +46,13 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="39dp"
             android:fontFamily="monospace"
-            android:text="Dove lo butto?"
+            android:text="@string/dove_lo_butto"
             android:textColor="#FFFFFF"
             android:textSize="26dp"
             android:textStyle="bold"
@@ -71,12 +70,12 @@
             android:layout_marginTop="18dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
-            android:text="SCOPRI"
+            android:text="@string/scopri"
             android:textColor="#ffffffff"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -110,7 +109,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="39dp"
             android:fontFamily="monospace"
-            android:text="Rifiuti Pericolosi"
+            android:text="@string/rifiuti_pericolosi"
             android:textColor="#FFFFFF"
             android:textSize="26dp"
             android:textStyle="bold"
@@ -128,7 +127,7 @@
             android:layout_marginTop="18dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
-            android:text="SCOPRI"
+            android:text="@string/scopri"
             android:textColor="#ffffffff"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -166,7 +165,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="39dp"
             android:fontFamily="monospace"
-            android:text="Spedizioni"
+            android:text="@string/spedizioni"
             android:textColor="#FFFFFF"
             android:textSize="26dp"
             android:textStyle="bold"
@@ -184,7 +183,7 @@
             android:layout_marginTop="18dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
-            android:text="SCOPRI"
+            android:text="@string/scopri"
             android:textColor="#ffffffff"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -198,7 +197,7 @@
         android:layout_marginBottom="20dp"
         android:fontFamily="monospace"
         android:gravity="center"
-        android:text="Versione Alpha 1.0"
+        android:text="@string/versione"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

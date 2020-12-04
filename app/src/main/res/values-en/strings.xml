@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Genova_Green</string>
+    <string name="slogan">Help us keep Genoa even greener!</string>
+    <string name="e_questo">Where do I throw this?</string>
+    <string name="lo_sapevi_che">Did you know that recycling varies according to the municipality in which you are located? Search for a product and find out in which bin it should be disposed of.</string>
+    <string name="dove_lo_butto">Where do I throw it?</string>
+    <string name="scopri">Show</string>
+    <string name="rifiuti_pericolosi">Hazardous waste</string>
+    <string name="spedizioni">Expedition</string>
+    <string name="versione">Alpha version 1.0</string>
+    <string name="impostazioni">Settings</string>
+    <string name="contatti">Contacts</string>
+</resources>

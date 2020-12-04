@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">Genova_Green</string>
     <string name="slogan">Aiutaci a mantenere Genova ancora più Green!</string>
+    <string name="e_questo">E questo dove lo butto?</string>
+    <string name="lo_sapevi_che">Lo sapevi che la raccolta differenziata varia in base al comune in cui ci si trova? Cerca un prodotto e scopri in quale bidone va smaltito.</string>
+    <string name="genovagreen" translatable="false">GenovaGreen</string>
+    <string name="dove_lo_butto">Dove lo butto?</string>
+    <string name="scopri">SCOPRI</string>
+    <string name="rifiuti_pericolosi">Rifiuti Pericolosi</string>
+    <string name="spedizioni">Spedizioni</string>
+    <string name="versione">Versione Alpha 1.0</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="impostazioni">Impostazioni</string>
+    <string name="contatti">Contatti</string>
 
 </resources>
