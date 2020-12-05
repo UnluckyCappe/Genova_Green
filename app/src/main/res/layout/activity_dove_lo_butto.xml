@@ -10,7 +10,6 @@
     tools:context=".Dove_lo_butto">
 
     <include
-        android:id="@+id/include"
         layout="@layout/action_bar_layout" />
 
     <TextView
@@ -58,6 +57,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchView" />
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:backgroundTint="@color/colorPrimary">
 
+        <include
+            layout="@layout/nav_main"/>
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
