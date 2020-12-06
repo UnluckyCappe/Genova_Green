@@ -14,10 +14,9 @@
 
         <include
             layout="@layout/action_bar_layout"/>
-
-
-    <include
-        layout="@layout/content_main"/>
+        
+        <include
+            layout="@layout/content_main"/>
     </LinearLayout>
     <RelativeLayout
         android:layout_width="300dp"
@@ -28,9 +27,5 @@
         <include
             layout="@layout/nav_main"/>
     </RelativeLayout>
-
-
-
-
 
 </androidx.drawerlayout.widget.DrawerLayout>

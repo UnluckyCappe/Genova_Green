@@ -1,6 +1,8 @@
 package com.example.genova_green;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.motion.widget.MotionLayout;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -11,6 +13,7 @@ import android.view.View;
 
 public class Dove_lo_butto extends AppCompatActivity {
     DrawerLayout dl;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +30,6 @@ public class Dove_lo_butto extends AppCompatActivity {
     public void ClickLogo(View view){
         MainActivity.closeDrawer(dl);
     }
-
 
     public void ClickHome(View view){
         MainActivity.redirectActivity(this, MainActivity.class);
